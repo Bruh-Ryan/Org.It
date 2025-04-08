@@ -33,7 +33,7 @@ Local Setup
 
 Clone the repository:
 
-bashCopygit clone https://github.com/yourusername/org-it.git
+bashCopygit clone https://github.com/bruh-ryan/org-it.git
 
 Open the index.html file in your browser
 
