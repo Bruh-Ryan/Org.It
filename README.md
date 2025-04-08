@@ -10,15 +10,6 @@ Features
 | Calendar | 🚧 In Progress |
 | Mail | 📅 Planned |
 
-<h1>Demo</h1>
-View live demo (Replace with your demo link when available)
-How It Works
-Org.It provides a straightforward to-do list functionality that allows you to:
-
-Add new tasks by typing in the input field and clicking "Add"
-Mark tasks as completed by clicking on them
-Remove individual tasks by clicking the "×" button
-Clear all completed tasks with the "Mark all as Done" button
 
 <h1>Usage</h1>
 
@@ -33,7 +24,7 @@ Local Setup
 
 Clone the repository:
 
-bashCopygit clone https://github.com/bruh-ryan/org-it.git
+bashCopygit clone https://github.com/Bruh-Ryan/org-it.git
 
 Open the index.html file in your browser
 
@@ -68,6 +59,6 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Contact
 Name -ryanpaultirkey@gmail.com
-Project Link: https://github.com/bruh-ryan/org-it
+Project Link: https://github.com/Bruh-Ryan/org-it
 
 Note: This project is currently in development. Some features mentioned in the menu (Calendar, Mail) may not be fully implemented yet
