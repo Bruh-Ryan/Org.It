@@ -24,7 +24,7 @@ Local Setup
 
 Clone the repository:
 
-bashCopygit clone https://github.com/Bruh-Ryan/org-it.git
+bashCopygit clone https://github.com/Bruh-Ryan/Org.It
 
 Open the index.html file in your browser
 
@@ -59,6 +59,6 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Contact
 Name -ryanpaultirkey@gmail.com
-Project Link: https://github.com/Bruh-Ryan/org-it
+Project Link: https://github.com/Bruh-Ryan/Org.It
 
 Note: This project is currently in development. Some features mentioned in the menu (Calendar, Mail) may not be fully implemented yet
