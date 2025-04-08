@@ -6,10 +6,11 @@ A lightweight, browser-based task management application that helps you organize
 
 Features
 
-Simple Task Management: Create, mark complete, and delete tasks with minimal clicks
-Clean User Interface: Minimalist design keeps you focused on your tasks
-No Installation Required: Access your organizer from any browser
-Multiple Organization Tools: Switch between List-it, Calendar, and Mail modes
+| Feature | Status |
+|---------|--------|
+| List-it | ✅ Complete |
+| Calendar | 🚧 In Progress |
+| Mail | 📅 Planned |
 
 Demo
 View live demo (Replace with your demo link when available)
