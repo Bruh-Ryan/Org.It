@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 20px;
+}
+
+/*  to do list adding container */
+.to-do-input-container 
+{
+    margin: 20px;
+    display: flex;
+    justify-content: center; /* horizontal alignment */
+    align-items: center; 
+}
+
+h1 {
+    color: rgb(47, 54, 61);
+}
+h3{
+    color: burlywood;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo-text {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow:
+        1px 1px 0 #999,
+        2px 2px 0 #888,
+        3px 3px 0 #777,
+        4px 4px 0 #666,
+        5px 5px 0 #555;
+    background-color: black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.Orientation-logo {
+    background-color: #041629;
+    border: 1px solid #4e5e6e;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(211, 209, 209, 0.1);
+    
+}
+
+.menu {
+    background-color: #2d2d2e;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.userInput
+{
+    margin-bottom:auto;
+    color: #2d2d2e;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.add-btn{
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.clr-btn{
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+
+}
+
+.list-it, .Calender, .Mail {
+    font-size: 6px; 
+    background-color: #605858;
+    padding: 1px 20px;
+    border: 1px solid linen;
+    border-radius: 4px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    
+}
+
+.list-it:hover, .Calender:hover, .Mail:hover {
+    background-color: #777;
+}
+
+
+ul {
+    margin: 10px;
+    padding: 10px;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 12px 500px 12px 40px;
+    list-style-type: none;
+    background: #8d8787;
+    font-size: 18px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  ul li:nth-child(odd) {
+    background: #514d4d;
+  }
+  
+  /* background-color on hover */
+  ul li:hover {
+    background: #c1bcbc;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    background: #2075dd;
+    color: #fff;
+    text-decoration: line-through;
+    
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #06cf67;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+
+
+
+
+  
+ 
