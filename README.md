@@ -1,7 +1,5 @@
-
-Org.It
-Your Organizer. Online, Everywhere & Anywhere.
-A lightweight, browser-based task management application that helps you organize your daily tasks in a clean, simple interface.
+<h1 class="logo-text">Org.It.</h1>
+<span class="tagline">Your Organizer. Online, Everywhere & Anywhere.</span>
 
 
 Features
