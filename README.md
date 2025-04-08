@@ -10,7 +10,7 @@ Features
 | Calendar | 🚧 In Progress |
 | Mail | 📅 Planned |
 
-Demo
+<h1>Demo</h1>
 View live demo (Replace with your demo link when available)
 How It Works
 Org.It provides a straightforward to-do list functionality that allows you to:
@@ -20,7 +20,7 @@ Mark tasks as completed by clicking on them
 Remove individual tasks by clicking the "×" button
 Clear all completed tasks with the "Mark all as Done" button
 
-Usage
+<h1>Usage</h1>
 
 Enter a task in the input field
 Click "Add" to add it to your list
@@ -28,7 +28,7 @@ Click on a task to mark it as completed
 Click the "×" to remove a specific task
 Click "Mark all as Done" to clear your entire list
 
-Installation
+<h1>Installation</h1>
 Local Setup
 
 Clone the repository:
@@ -42,7 +42,7 @@ Required Files
 index.html - Main HTML structure
 fontStyle.css - Font styling and additional CSS rules
 
-Project Structure
+<h1>Project Structure</h1>
 Copyorg-it/
 ├── index.html          # Main HTML file with app structure and JavaScript
 ├── fontStyle.css       # CSS styling for fonts and UI elements
@@ -55,7 +55,7 @@ Data Persistence: Save your tasks locally or in the cloud
 Mobile Responsive Design: Use on any device
 Dark/Light Mode Toggle: Choose your preferred theme
 
-Browser Support
+<h1>Browser Support</h1>
 
 Chrome (latest)
 Firefox (latest)
@@ -64,16 +64,10 @@ Edge (latest)
 
 Contributing
 
-Fork the project
-Create your feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
-
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/org-it
+Name -ryanpaultirkey@gmail.com
+Project Link: https://github.com/bruh-ryan/org-it
 
 Note: This project is currently in development. Some features mentioned in the menu (Calendar, Mail) may not be fully implemented yet
