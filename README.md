@@ -11,6 +11,9 @@ Features
 | Calendar | 🚧 In Progress |
 | Mail | 📅 Planned |
 
+<h1>Previews</h1>
+images/orgit home.png
+![orgit home](images/orgit home.png)
 
 <h1>Usage</h1>
 
