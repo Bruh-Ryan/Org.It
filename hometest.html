@@ -1,103 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Black Background</title>
-<link rel="stylesheet" href="fontStyle.css">
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Org.it</title>
+    <link rel="stylesheet" href="Home.css">
 
-</style>
-</head>
-<body>
-<div class="Orientation-logo">
-<h1 class="logo-text">Org.It.</h1>
-<span class="tagline">Your Organizer. Online, Everywhere & Anywhere.</span>
-</div>
-<div class="menu">
-<button id="list-it" class="list-it"><h2>List-it</h2></button>
-<button id="calender" class="Calender"><h2>Calender</h2></button>
-<button id="mail" class="Mail"><h2>Mail</h2></button>
-</div>
-<div id="output-selected" class="Output-selected">
-</div>
+  </head>
+  <body>
+  <div class="Orientation-logo">
+    <label class="logo-text">Org.It.</label>
+    <span class="Tag-line"> Your Organizer. Online, Everywhere & Anywhere.</span>  
+  </div>
 
-<div id="to-do-input-container" class="to-do-input-container">
-   <span>
-    <input type="text" id="user-input" class="userInput" placeholder="Add to list"></input>
-    <span onclick="newElement()" class="add-btn">Add</span>
-    <span onclick="clearElements()" class="clr-btn">Mark all as Done</span>
-</span>
-    <ul id="user-List">
-      </ul>
-     
-</div>
+     <div class="select-menu">
+      <button id="task" class="menu"><h2>Tasks</h2></button>
+      <button id="notes" class="menu"><h2>Notes</h2></button>
+      <button id="calender" class="menu"><h2>Calender</h2></button>
+      </div>
 
-<script>
-// Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
-}
 
-// Click on a close button to hide the current list item
-var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
-  }
-}
-// Add a "checked" symbol when clicking on a list item
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
+     <div id="select-Container" class="select-area"> <!--  here all the container should show up -->
+    
+      <!---Notes cobtainer-->
+      <div id="notes-container" class="app-container"> 
+          
+        <div class="app-header">
+            <h2>Notes 🖋️</h2>
+            <button class="close-button" id="clear">&times;</button>
+          </div>
+        <textarea class="notes-area" id="notes-text" placeholder="Type your notes here..."></textarea>
+        <button class="save-button" id="saveNotes">Save Notes</button>
+        
+            <div class="Saved-Notes">
+              <h2 class="Saved-Notes">Saved Notes---------- ⬇️</h2>
+            </div>
+      </div>
 
-// Create a new list item when clicking on the "Add" button
-function newElement() {
-  var li = document.createElement("li");
-  var inputValue = document.getElementById("user-input").value;
-  var t = document.createTextNode(inputValue);
-  li.appendChild(t);
-  if (inputValue === '') {
-    alert("You must write something!");
-  } else {
-    document.getElementById("user-List").appendChild(li);
-  }
-  document.getElementById("user-input").value = "";
+        <!---Tasks cobtainer-->
+        <div id="task-container" class="app-container"> 
+          <div class="app-header">
+            <h2>Tasks 📝</h2>
+            <span>
+              <input type="text" id="text-input" class="text-container" placeholder="Type here...."></input>
+              <button onclick="addTask()" class= 'add-btn'>Add</button>
+              <button onclick="clearElements()" class="clr-btn">Mark all as Done</button>
+            </span>
+                <ul id="taskList">
+                  <li id="lists-on-taskList"> Task 1 </li>
+                </ul>
 
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
 
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
-    }
-  }
-}
+          </div>
 
-function clearElements()
-{
-    var userList = document.getElementById("user-List");
-  
-  // Remove all child elements (list items)
-  while (userList.firstChild) {
-    userList.removeChild(userList.firstChild);
-}
-}
-</script>
+        </div>
+        
 
-</body>
-</html>
+    </div>
+
+    <script src="hometest.js"></script>
+
+    </div>
+
