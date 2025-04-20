@@ -12,7 +12,7 @@ Features
 | Mail | 📅 Planned |
 
 <h1>Previews</h1>
-![orgit](images/orgithome.png)
+![orgit](images/orgit%20home.png)
 
 <h1>Usage</h1>
 
