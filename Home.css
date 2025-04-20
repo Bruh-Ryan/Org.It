@@ -1,0 +1,197 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 30px;
+    padding: 20px;
+}
+
+.Orientation-logo
+{
+    padding: 40px;
+    position: relative;
+ 
+}
+
+.logo-text
+{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 100px;
+    background-color: rgb(22, 43, 43);
+    border-radius: 10px;
+    text-shadow:
+    1px 1px 0 #999,
+    2px 2px 0 #888,
+    3px 3px 0 #777,
+    4px 4px 0 #666,
+    5px 5px 0 #555;
+    padding: 15px;
+}
+
+.logo-text:hover{
+
+    background-color: #abd92b;
+    color: rgb(14, 46, 135);
+    
+}
+/* get a way to have hover to this */
+.Tag-line{
+    color: rgb(195, 0, 0);
+    position: fixed;
+    transform: translate(50%,200%);
+}
+.Tag-line:hover{
+    color: rgb(245, 245, 245);
+}
+
+.select-menu{
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(47, 46, 46);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px  rgb(22, 43, 43);
+    display:block; /* Hidden by default : none  !!!!!!!!!!!!!*/
+    z-index: 100;
+    min-width: 300px;
+}
+
+.menu{
+
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.menu:hover{
+
+    background-color: #abd92b;
+}
+
+/*for the notes bar*/
+.select-area{
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,10%);
+    background-color: rgb(108, 106, 106);
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px  rgb(100, 102, 102);
+    display:none; /* Hidden by default : none  !!!!!!!!!!!!!*/
+    z-index: 100;
+    min-width: 300px;
+    transition: all 0.4s ease;
+}
+
+.save-button{
+    padding: 10px;
+    position: relative;
+    transform: translate(10%,150%);
+    margin: auto;
+
+
+}
+.notes-area{
+    padding: 50px;
+    width: 500px;
+    position: relative;
+    margin: auto;
+
+}
+.Saved-Notes{
+    transform: translate(0%,300%);
+    position: relative;
+    margin: auto;
+
+}
+.text-container{
+    padding: 10px;
+    width: 400px;
+    position: relative;
+}
+
+/*for the task container*/
+.add-btn{
+    cursor:pointer;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+}
+.add-btn:hover{
+    padding: 10px;
+    color: rgb(92, 226, 34);
+    background-color: rgb(138, 43, 43);
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+}
+.clr-btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+.clr-btn:hover{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #555;
+}
+ul {
+    margin: 10px;
+    padding: 10px;
+    transform: translate(10%,100%);
+}
+ul li{
+    cursor: pointer;
+    position: fixed;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 12px 500px 12px 40px;
+    list-style-type: none;
+    background: #8d8787;
+    font-size: 18px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul li:hover {
+    background: #4558c1;
+  }
+
+ul li.checked {  
+    background: #33dd20;
+    color: #fff;
+    text-decoration:line-through;   
+} 
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #06cf67;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
