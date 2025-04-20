@@ -7,6 +7,7 @@ Features
 | Feature | Status |
 |---------|--------|
 | List-it | ✅ Complete |
+| Notes   | ✅ New Feature, 🚧 In Progress |
 | Calendar | 🚧 In Progress |
 | Mail | 📅 Planned |
 
