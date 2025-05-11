@@ -1,6 +1,16 @@
 <h1 class="logo-text">Org.It.</h1>
 <span class="tagline">Your Organizer. Online, Everywhere & Anywhere.</span>
 
+Features
+
+| Feature | Status |
+|---------|--------|
+| List-it | ✅ Complete |
+| Notes   | ✅ New Feature, 🚧 In Progress |
+| Calendar | 🚧 In Progress |
+| Mail | 📅 Planned |
+
+<h1>Previews</h1>
 Fresh Homepage:
 
 ![Information Display](images/orgit_home.png)
@@ -12,19 +22,6 @@ Note taker:
 an Organiser! so many possibilities 
 
 ![Information Display](images/orgit.png)
-
-
-Features
-
-| Feature | Status |
-|---------|--------|
-| List-it | ✅ Complete |
-| Notes   | ✅ New Feature, 🚧 In Progress |
-| Calendar | 🚧 In Progress |
-| Mail | 📅 Planned |
-
-<h1>Previews</h1>
-![orgit](images/orgit_home.png)
 
 <h1>Usage</h1>
 
