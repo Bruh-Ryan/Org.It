@@ -1,6 +1,18 @@
 <h1 class="logo-text">Org.It.</h1>
 <span class="tagline">Your Organizer. Online, Everywhere & Anywhere.</span>
 
+Fresh Homepage:
+
+![Information Display](images/orgit_home.png)
+
+Note taker:
+
+![Information Display](images/orgit2.png)
+
+an Organiser! so many possibilities 
+
+![Information Display](images/orgit.png)
+
 
 Features
 
